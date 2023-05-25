@@ -1,0 +1,26 @@
+CREATE DATABASE crudpdo;
+
+
+
+USE crudpdo;
+
+
+
+CREATE TABLE pessoa(
+id int primary key auto_increment,
+nome VARCHAR(20),
+telefone VARCHAR(20),
+email VARCHAR(30)
+);
+
+
+
+SELECT * FROM pessoa;
+
+
+
+SELECT * FROM crudpdo.pessoa;
+
+
+
+TRUNCATE pessoa;
